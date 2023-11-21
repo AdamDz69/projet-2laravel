@@ -27,3 +27,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::get('/test-livewire', function () {
+    return view('counter-contrainer');
+});
