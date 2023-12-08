@@ -83,7 +83,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fr',
 
     /*
     |--------------------------------------------------------------------------
@@ -156,6 +156,7 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
+        Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -184,6 +185,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'Permission' => Spatie\Permission\Models\Permission::class,
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 

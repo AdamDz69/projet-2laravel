@@ -5,8 +5,7 @@ namespace Database\Seeders;
 use App\Models\Goat;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\User;
-use Illuminate\Support\Facades\Hash;
+
 
 class GoatSeeder extends Seeder
 {
@@ -15,18 +14,7 @@ class GoatSeeder extends Seeder
      */
     public function run(): void
     {
-        $u = new User;
-        $u->name = "Adam dz";
-        $u->email =  "adam.belaidounipro@gmail.com";
-        $u->password = Hash::make("dzpower694");
-        $u->save();
-
-        $u = new User;
-        $u->name = "Adam BELAIDOUNI";
-        $u->email =  "adaam.belaidounii@gmail.com";
-        $u->password = Hash::make("motdepasse694");
-        $u->save();
-        
+      
 
         $cpt = 1;
 

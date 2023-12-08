@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdBGiApAAAAANi79UEHr7lmrern9tFeAkz3qvEi"></script>
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 

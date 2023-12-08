@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 use App\Models\Goat;
 use App\Http\Requests\StoreGoatRequest;
 use App\Http\Requests\UpdateGoatRequest;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 class GoatController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    
     public function index()
     {
         $goats = Goat::all();
