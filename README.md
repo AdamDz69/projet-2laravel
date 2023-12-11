@@ -1,4 +1,4 @@
-# GoatFarm - Gestion des chèvres
+# projet-2laravel - Gestion des chèvres
 
 ## Description
 Bienvenue dans GoatFarm, une application web de gestion des chèvres qui permet aux utilisateurs de créer, afficher, mettre à jour et supprimer des informations sur les chèvres. Les fonctionnalités principales incluent :
