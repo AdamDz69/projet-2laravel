@@ -28,5 +28,5 @@ Bienvenue dans GoatFarm, une application web de gestion des chèvres qui permet 
 ## Comment exécuter le projet localement
 1. Clonez le projet sur votre machine locale.
    ```bash
-   git clone https://github.com/votre-utilisateur/GoatFarm.git
+   git clone https://github.com/AdamDz69/projet-2laravel
 
