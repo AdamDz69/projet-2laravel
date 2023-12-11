@@ -12,7 +12,8 @@
             <li><strong>Birthday:</strong> {{ $goat->birthday }}</li>
             <li><strong>Color:</strong> {{ $goat->color }}</li>
             <li>Proprio: {{ $goat->owner->name }}</li>
-            
         </ul>
+        
+        <a href="{{ url('/goats') }}" class="bg-blue-500 text-white py-2 px-4 rounded-md mt-4 inline-block">Retour </a>
     </div>
 @endsection
