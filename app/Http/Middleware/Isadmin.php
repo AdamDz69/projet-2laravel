@@ -17,8 +17,11 @@ class Isadmin
     public function handle(Request $request, Closure $next): Response
     {
         // verifier erreurs ?
-        if(!Auth::user()->is_admin)
-        return redirect(route('dashboard'));
+        if(Auth::user()->is_admin){
+            return redirect('goats');
+            dd("pass");
+        }
+        
         return $next($request);
     }
 }
