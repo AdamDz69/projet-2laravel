@@ -1,7 +1,7 @@
 # projet-2laravel - Gestion des chèvres
 
 ## Description
-Bienvenue dans GoatFarm, une application web de gestion des chèvres qui permet aux utilisateurs de créer, afficher, mettre à jour et supprimer des informations sur les chèvres. Les fonctionnalités principales incluent :
+Bienvenue dans My Goat App, une application web de gestion des chèvres qui permet aux utilisateurs de créer, afficher, mettre à jour et supprimer des informations sur les chèvres. Les fonctionnalités principales incluent :
 
 - CRUD (Create, Read, Update, Delete) pour les informations des chèvres.
 - Différents rôles : Administrateur et Utilisateur.
