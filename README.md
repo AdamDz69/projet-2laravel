@@ -13,7 +13,7 @@ Bienvenue dans My Goat App, une application web de gestion des chèvres qui perm
 
 ### Compte Administrateur
 - Email: adam.belaidounipro@gmail.com
-- Mot de passe: dzpower694
+- Mot de passe: admin69480
 
 ### Compte Utilisateur
 - Email: adaam.belaidounii@gmail.com
