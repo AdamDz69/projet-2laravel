@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
         $u = new User;
         $u->name = "Adam dz";
         $u->email =  "adam.belaidounipro@gmail.com";
-        $u->password = Hash::make("dzpower694");
+        $u->password = Hash::make("admin69480");
         $u->is_admin = true;
         $u->save();
 
@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         $u->password = Hash::make("motdepasse694");
         $u->is_admin = false;
         $u->save();
-        
+
         $this->call([
             GoatSeeder::class,
         ]);
